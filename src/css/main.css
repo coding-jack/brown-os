@@ -107,3 +107,27 @@ a {
   border-width: 3px;
   text-transform: uppercase;
 }
+
+.modal-dialog {
+  max-width: 1140px;
+  margin: 53px;
+  border: 2px solid black;
+}
+
+.modal-title {
+  font-size: 30px;
+  line-height: 1;
+  color: white;
+}
+
+.modal-header {
+  padding: 4px;
+  padding-left: 10px;
+  background-color: mediumpurple;
+  border: 0;
+  border-bottom: 2px solid black;
+}
+
+button.close {
+  padding-right: 10px;
+}
