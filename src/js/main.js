@@ -4,6 +4,7 @@ $(document).ready(function(){
     'show': true,
     'backdrop': false
   });
+
   $('button.random-chan').click(function(){
     RandomChan();
   })
@@ -26,4 +27,15 @@ var chanImages = [
   'images/jackie-chan/jackie-2.jpg',
   'images/jackie-chan/jackie-3.jpg',
   'images/jackie-chan/jackie-4.jpg',
+  'images/jackie-chan/jackie-5.jpg',
+  'images/jackie-chan/jackie-6.jpg',
+  'images/jackie-chan/jackie-7.jpg',
+  'images/jackie-chan/jackie-8.jpg',
+  'images/jackie-chan/jackie-9.jpg',
+  'images/jackie-chan/jackie-10.jpg',
+  'images/jackie-chan/jackie-11.jpg',
+  'images/jackie-chan/jackie-12.jpg',
+  'images/jackie-chan/jackie-13.jpg',
+  'images/jackie-chan/jackie-14.jpg',
+  'images/jackie-chan/jackie-15.jpg',
 ]
