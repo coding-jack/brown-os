@@ -84,6 +84,11 @@ a {
   right: 15px;
   z-index: 100;
 }
+.toolbar-main .dropdown-menu {
+  background-color: #bababa;
+  border-radius: 0;
+  margin: 0;
+}
 .desktop {
   height: 100vw;
 }
@@ -107,8 +112,44 @@ a {
   border-style: outset;
   border-width: 3px;
   text-transform: uppercase;
+  cursor: pointer;
 }
+button.close {
+  padding-right: 10px;
+}
+
 .nav-item a {
   padding: 0 1rem;
+  line-height: 1.4;
+}
+.modal {
+  z-index: 90;
 }
 .modal-backdrop.show { display: none; }
+
+.modal-dialog {
+  max-width: 1140px;
+  margin: 53px auto;
+  border: 2px solid black;
+}
+  .modal-body {
+    padding: 3rem 30px;
+  }
+
+  .modal-content {
+    border-radius: 0;
+    border: 0;
+  }
+    .modal-header {
+      padding: 4px;
+      padding-left: 10px;
+      background-color: mediumpurple;
+      border: 0;
+      border-bottom: 2px solid black;
+      border-radius: 0;
+    }
+      .modal-title {
+        font-size: 30px;
+        line-height: 1;
+        color: white;
+      }

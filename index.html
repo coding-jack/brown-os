@@ -40,7 +40,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" data-target="#welcome">Welcome</a>
+            <a class="nav-link" data-toggle="modal" data-backdrop="false" data-target="#welcome">Welcome</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#">Disabled</a>
@@ -54,7 +54,7 @@
             <span class="pr-3">June 6 2006 4:20 AM</span>
           </li>
           <li class="nav-item">
-            <i class="fa fa-gear"></i>
+            <a class="nav-link" data-toggle="modal" data-target="#settings"  data-backdrop="false"><i class="fa fa-gear"></i></a>
           </li>
         </ul>
       </div>
@@ -87,7 +87,34 @@
                           Virtual Zoo
                         </button>
                       </div>
-                      <div class="col">Col 3</div>
+                      <div class="col">
+                        <button type="button" class="btn btn-primary btn-block mb-3" data-toggle="modal" data-target="#fmhell">
+                          FMHELL
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal" id="settings" tabindex="-1" role="dialog" aria-labelledby="welcomeModal" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Brown OS Settings</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col"><h1>Welcome to<br>Brown OS</h1></div>
+                      <div class="col">
+                        <h5>Wallpapers</h5>
+                      </div>
+                      <div class="col">
+
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -97,21 +124,41 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Feel Good With Jackie</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                    ...
+                    <img src="" alt="">
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Buzz Off Jackie</button>
+                    <button type="button" class="btn btn-primary">See Another Jackie Smile</button>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="modal fade" id="virtualzoo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Play and Laugh Your Way Through The Zoo!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="" alt="">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">I Want To Get A Funnel Cake</button>
+                    <button type="button" class="btn btn-primary">I Want See Another Animal</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
